@@ -9,6 +9,10 @@ It would be a very kind gesture if you did however leave some attribution somewh
 
 Or just leave the credit in the original file if you use that, however it is not a requirement.
 
+**Video:**
+
+_An example and tutorial video on how to use the tool:_
+
 [![Youtube Video](https://img.youtube.com/vi/90KesqCDDog/0.jpg)](https://www.youtube.com/watch?v=90KesqCDDog)
 
 
