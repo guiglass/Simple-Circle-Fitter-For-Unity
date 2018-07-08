@@ -1,25 +1,28 @@
 # Simple Circle Fitter
-### Two free, simple and fully self contained 
-Circle Radius and Center Locating Scripts.
+### Single script, fully self contained algorithms.
 
-I composed these two scripts in Unity c# and am now sharing them.
-It would be a very kind gesture if you did however leave some attribution somewhere near the fitting functions if you copy them, such as:
+Two scripts that show two differnt approaches to fitting a circle to 2d data points on a plane. 
+Both scripts are written in c# and are entirely stand alone, requiring no additional libraries. You only need to drag one of the two desireds scripts and add it as a component to whatever gameobject you wish in your scene. Then add some randomly placed transforms in the scene and add them to the coordinates list to be fitted.
 
-//Credits: Grant Olsen - 2018
-
-Or just leave the credit in the original file if you use that, however it is not a requirement (I consider this as CC-Zero, so please enjoy :D ).
+Note that with any circle you must specify at least three coordinates in order to define it, axiomatically, an infinite number of circles can be defined by trying to use two or less coordinates. Thus it is a requirement for these scripts to function that you always have 3 or more coordinates in available in the arrays!
 
 **Video:**
 
-_An example and tutorial video on how to use the scripts:_
+_An example and tutorial video on how to use the scripts:_ 
 
 [![Youtube Video](https://img.youtube.com/vi/90KesqCDDog/0.jpg)](https://www.youtube.com/watch?v=90KesqCDDog)
 
 
-Note that with any circle you must specify at least three coordinates in order to define it, axiomatically, an infinite number of circles can be defined by trying to use two or less coordinates. Thus it is a requirement for these scripts to function that you always have 3 or more coordinates in available in the arrays!
+
+It would be a kind gesture if you did leave some attribution somewhere near any functions you copy, if you do copy any, such as:
+
+> //Credits: Grant Olsen - 2018
+
+Or you may leave the credit in the original file, however none of these are a requirement (I consider this as CC-Zero, so please enjoy :D ).
 
 
-Please feel free to use this example in any way you see fit (without restriction of any kind) as well as redistribute, modify and share it with all of your friends and co-workers.
+
+Feel free to use this example in any way you see fit (without restriction of any kind) as well as redistribute, modify and share it with all of your friends and co-workers.
 
 Legal notice:
 By downloading or using any resource from this example you agree that I (the author) am not liable for any losses or damages due to the use of any part(s) of the content in this example. It is distributed as is and without any warranty or guarantees. 
