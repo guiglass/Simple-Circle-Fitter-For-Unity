@@ -1,6 +1,5 @@
 # Simple Circle Fitter
-### Two free, simple and fully self contained 
-Circle Radius and Center Locating Scripts.
+### Self contained scripts with no dependencies.
 
 Two scripts that show two differnt approaches to fitting a circle to 2d data points on a plane. 
 Both scripts are written in c# and are entirely self stand alone, requiring that you only need drag the desired script and add as a component to whatever gameobject you wish. THne add the transforms to be fitted to in the coordinates list.
