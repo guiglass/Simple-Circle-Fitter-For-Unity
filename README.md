@@ -1,4 +1,4 @@
-# Simple Circle Fitter for Unity
+# Simple Circle Fitter
 ### Two free, simple and fully self contained 
 Circle Radius and Center Locating Scripts.
 
@@ -15,15 +15,15 @@ _An example and tutorial video on how to use the scripts:_
 
 
 
-It would be a very kind gesture if you did however leave some attribution somewhere near the fitting functions if you copy them, such as:
+It would be a kind gesture if you did leave some attribution somewhere near any functions you copy, if you do copy any, such as:
 
-//Credits: Grant Olsen - 2018
+> //Credits: Grant Olsen - 2018
 
-Or you may leave the credit in the original file, however it is not a requirement (I consider this all CC-Zero, so please enjoy :D ).
+Or you may leave the credit in the original file, however none of these are a requirement (I consider this as CC-Zero, so please enjoy :D ).
 
 
 
-Please feel free to use this example in any way you see fit (without restriction of any kind) as well as redistribute, modify and share it with all of your friends and co-workers.
+Feel free to use this example in any way you see fit (without restriction of any kind) as well as redistribute, modify and share it with all of your friends and co-workers.
 
 Legal notice:
 By downloading or using any resource from this example you agree that I (the author) am not liable for any losses or damages due to the use of any part(s) of the content in this example. It is distributed as is and without any warranty or guarantees. 
