@@ -2,7 +2,7 @@
 ### Single script, fully self contained algorithms.
 
 Two scripts that show two differnt approaches to fitting a circle to 2d data points on a plane. 
-Both scripts are written in c# and are entirely self stand alone, requiring that you only need drag the desired script and add as a component to whatever gameobject you wish. THne add the transforms to be fitted to in the coordinates list.
+Both scripts are written in c# and are entirely stand alone, requiring no additional libraries. You only need to drag one of the two desireds scripts and add it as a component to whatever gameobject you wish in your scene. Then add some randomly placed transforms in the scene and add them to the coordinates list to be fitted.
 
 Note that with any circle you must specify at least three coordinates in order to define it, axiomatically, an infinite number of circles can be defined by trying to use two or less coordinates. Thus it is a requirement for these scripts to function that you always have 3 or more coordinates in available in the arrays!
 
