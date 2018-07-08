@@ -1,5 +1,5 @@
 # Simple Circle Fitter
-### Single Script, Fully Self Contained Algorithms.
+### Fully Self Contained Algorithms.
 
 Two scripts that show two differnt approaches to fitting a circle to 2d data points on a plane. 
 Both scripts are written in c# and are entirely stand alone, requiring no additional libraries. You only need to drag one of the two desireds scripts and add it as a component to whatever gameobject you wish in your scene. Then add some randomly placed transforms in the scene and add them to the coordinates list to be fitted.
