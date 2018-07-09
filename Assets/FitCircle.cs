@@ -13,14 +13,6 @@ public class FitCircle : MonoBehaviour {
 	float y_c = 0f; //Circle's center coordinate (Y Axis).
 	float r = 0f; //Circle's radius.
 
-	float[][] A;
-	float[] b;
-
-	void Awake() {//initialize arrays
-		A = new float[coordinates.Length][]; 
-		b = new float[coordinates.Length];
-	}
-
 	void Update() {
 		FitCircleToCoordinates (ref x_c, ref y_c, ref r, coordinates);
 
@@ -33,12 +25,13 @@ public class FitCircle : MonoBehaviour {
 		Gizmos.color = Color.cyan;
 		Gizmos.DrawWireSphere(new Vector3(x_c, 0, y_c), r);
 	}
-
-	void FitCircleToCoordinates(ref float _x, ref float _y, ref float _r, Transform[] C) { //Compute the aproximate center and radius of a circle given an array of coordinates.
+		
+	public static void FitCircleToCoordinates(ref float _x, ref float _y, ref float _r, Transform[] C) { //Compute the aproximate center and radius of a circle given an array of coordinates.
+		float[][] A = new float[C.Length][]; 
 		for (int n = 0; n < A.Length; n++) {
-			A [n] = new float[] {-2f*coordinates[n].position.x, -2f*coordinates[n].position.z, 1};
+			A [n] = new float[] {-2f*C[n].position.x, -2f*C[n].position.z, 1};
 		}
-
+		float[] b = new float[C.Length]; 
 		for (int n = 0; n < A.Length; n++) {
 			b [n] = -(Mathf.Pow(C[n].position.x,2) + Mathf.Pow(C[n].position.z,2));
 		}
